@@ -1,0 +1,74 @@
+html{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    color: white;
+    font-size: 16px;
+}
+
+.container{
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #262626;
+    padding: 0px 30px 0px 30px;
+}
+
+.navbar{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    font-weight: 500;
+    
+}
+.nav-logo{
+    background-image: linear-gradient(to right, red , rgb(197, 152, 27));
+    color: transparent;
+    background-clip: text;
+    font-size: 1.1rem;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+} 
+
+.section{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.intro p{
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.intro h1{
+    background-image: linear-gradient(to right, red , rgb(197, 152, 27));
+    color: transparent;
+    background-clip: text;
+}
+
+.intro button{
+    padding: 10px 20px 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-image: linear-gradient(to right, red , rgb(197, 152, 27));
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.intro-image{
+    width: 320px;
+    
+}
